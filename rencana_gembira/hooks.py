@@ -5,6 +5,13 @@ app_description = "Rencana yang menggembirakan"
 app_email = "itechgembira@gmail.com"
 app_license = "MIT"
 
+
+
+
+doctype_js = {
+    "Company Plan Task": "public/js/company_plan_task.js"
+}
+
 # Includes in <head>
 # ------------------
 
