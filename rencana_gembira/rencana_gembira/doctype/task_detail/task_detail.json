@@ -81,7 +81,7 @@
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Task ID",
-   "options": "TaskGem-.YY.MM.DD.-",
+   "options": "\nTaskGem-DCGTO-.YY.MM.DD.-\nTaskGem-DCMDO-.YY.MM.DD.-\nTaskGem-DCMKS-.YY.MM.DD.-\nTaskGem-DCSBY-.YY.MM.DD.-\nTaskGem-GHW-.YY.MM.DD.-\nTaskGem-GGS-.YY.MM.DD.-\nTaskGem-GRA-.YY.MM.DD.-\nTaskGem-GHTM-.YY.MM.DD.-\nTaskGem-GHL-.YY.MM.DD.-\nTaskGem-GHI-.YY.MM.DD.-\nTaskGem-GHDS-.YY.MM.DD.-\nTaskGem-GHTI-.YY.MM.DD.-\nTaskGem-GHM-.YY.MM.DD.-\nTaskGem-GHPD-.YY.MM.DD.-\nTaskGem-GHKR-.YY.MM.DD.-\nTaskGem-GHTU-.YY.MM.DD.-\nTaskGem-GHSR-.YY.MM.DD.-\nTaskGem-GHGI-.YY.MM.DD.-\nTaskGem-GHAN-.YY.MM.DD.-",
    "reqd": 1
   },
   {
@@ -93,13 +93,12 @@
   {
    "fieldname": "attach_file",
    "fieldtype": "Attach",
-   "label": "Attach FIle",
-   "reqd": 1
+   "label": "Attach FIle"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-28 16:09:14.560888",
+ "modified": "2025-09-30 08:40:41.869275",
  "modified_by": "Administrator",
  "module": "Rencana Gembira",
  "name": "Task Detail",
@@ -115,6 +114,18 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Audit Rec",
    "share": 1,
    "write": 1
   }

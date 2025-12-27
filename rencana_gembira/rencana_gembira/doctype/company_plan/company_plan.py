@@ -13,6 +13,9 @@ from frappe.model.document import Document
 class CompanyPlan(Document):
     def validate(self):
         self.update_progress()
+    
+    def before_save(self):
+        self.update_progress()
 
     def update_progress(self):
         if not self.task:

@@ -15,6 +15,9 @@ class CompanyPlanTask(Document):
     def validate(self):
         self.update_progress()
 
+    def before_save(self):
+        self.update_progress()
+
     def update_progress(self):
         # hitung checklist
         total = len(self.checklist)
